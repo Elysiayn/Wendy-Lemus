@@ -15,7 +15,6 @@ import M from "materialize-css/dist/js/materialize.min.js";
 //   }
 
 //   render() {
-//     // const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
 //     return (
 //       <div>
 //         <nav>
@@ -59,21 +58,26 @@ import M from "materialize-css/dist/js/materialize.min.js";
 function Navbar(props) {
   const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
   return (
-    <ul className="nav nav-tabs">
-      {tabs.map(tab => (
-        <li className="nav-item" key={tab}>
-          <a
-            href={'#' + tab.toLowerCase()}
-            onClick={() => props.handlePageChange(tab)}
-            className={
-              props.currentPage === tab ? 'nav-link active' : 'nav-link'
-            }
-          >
-            {tab}
-          </a>
-        </li>
-      ))}
-    </ul>
+    <nav>
+      <div class="nav-wrapper teal darken-2">
+      <a href="#" class="brand-logo hide-on-med-and-down">Elysiayn</a>
+        <ul id="nav-mobile" class="right" className="nav nav-tabs">
+          {tabs.map(tab => (
+            <li className="nav-item" key={tab}>
+              <a
+                href={'#' + tab.toLowerCase()}
+                onClick={() => props.handlePageChange(tab)}
+                className={
+                  props.currentPage === tab ? 'nav-link active' : 'nav-link'
+                }
+              >
+                {tab}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </nav>
   );
 }
 
