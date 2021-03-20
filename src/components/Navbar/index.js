@@ -58,9 +58,9 @@ import M from "materialize-css/dist/js/materialize.min.js";
 function Navbar(props) {
   const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
   return (
-    <div class="row">
+    <div className="row">
       <nav>
-        <div class="nav-wrapper teal darken-2">
+        <div className="nav-wrapper teal darken-2">
         <a href="#!" class="brand-logo hide-on-med-and-down"><i class="material-icons">cloud</i>Elysiayn</a>
           <ul id="nav-mobile" class="right col" className="nav nav-tabs right">
             {tabs.map(tab => (
