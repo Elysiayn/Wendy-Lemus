@@ -1,4 +1,4 @@
-import React, {Component } from 'react';
+import React, { Component } from 'react';
 // Import Materialize
 import 'materialize-css/dist/css/materialize.min.css';
 import M from "materialize-css/dist/js/materialize.min.js";
@@ -61,10 +61,10 @@ function Navbar(props) {
     <div class="row">
       <nav>
         <div class="nav-wrapper teal darken-2">
-        <a href="#" class="brand-logo hide-on-med-and-down">Elysiayn</a>
-          <ul id="nav-mobile" class="right col" className="nav nav-tabs">
+        <a href="#!" class="brand-logo hide-on-med-and-down"><i class="material-icons">cloud</i>Elysiayn</a>
+          <ul id="nav-mobile" class="right col" className="nav nav-tabs right">
             {tabs.map(tab => (
-              <li className="nav-item" key={tab}>
+              <li class="active" className="nav-item" key={tab}>
                 <a
                   href={'#' + tab.toLowerCase()}
                   onClick={() => props.handlePageChange(tab)}
