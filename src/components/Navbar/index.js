@@ -61,10 +61,10 @@ function Navbar(props) {
     <div className="row">
       <nav>
         <div className="nav-wrapper teal darken-2">
-        <a href="#!" class="brand-logo hide-on-med-and-down"><i class="material-icons">spa</i>Elysiayn</a>
-          <ul id="nav-mobile" class="right col" className="nav nav-tabs right">
+        <a href="#!" className="brand-logo hide-on-med-and-down"><i className="material-icons">spa</i>Elysiayn</a>
+          <ul id="nav-mobile" className="right col" className="nav nav-tabs right">
             {tabs.map(tab => (
-              <li class="active" className="nav-item" key={tab}>
+              <li className="active" className="nav-item" key={tab}>
                 <a
                   href={'#' + tab.toLowerCase()}
                   onClick={() => props.handlePageChange(tab)}
