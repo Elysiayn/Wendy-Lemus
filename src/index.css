@@ -1,17 +1,3 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
 /*  universal styling */
 .row{
   margin: 0 !important;
@@ -68,3 +54,16 @@ code {
   margin-top:15%;
   margin-bottom: 0px;
 }
+
+
+/* Mediaqueries For mobile phones: */
+.about{
+  background-size: cover !important;
+  height: 100vh !important;
+}
+
+.aboutTitle {
+  font-size: xx-large !important;
+  padding: 0;
+}
+
