@@ -1,12 +1,17 @@
-import React from "react";
+import React from 'react';
+import { capitalizeFirstLetter } from '../../utils/helpers';
+import Photos from '../Photos';
 
-const Portfolio = () => (
-  <div>
-    <h1>Portfolio Page</h1>
-    <p>
-      PORTFOLIO TEXT
-    </p>
-  </div>
-);
+function Portfolio ({ currentCategory }) {
+    const { name, description } = currentCategory;
 
-export default Portfolio;
+    return (
+        <section>
+            <h1 data-testid="h1tag">{capitalizeFirstLetter(name)}</h1>
+            <p>{description}</p>
+            <Photos category={currentCategory.name} />
+        </section>
+    )
+}
+
+export default Portfolio
