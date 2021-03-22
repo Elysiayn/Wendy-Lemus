@@ -62,14 +62,14 @@
 }
 
 
-/* Mediaqueries For mobile phones: */
-.about{
-  background-size: cover !important;
-  height: 100vh !important;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+  .aboutTitle {
+    font-size: xx-large !important;
+    padding: 0;
+  }
+
 }
 
-.aboutTitle {
-  font-size: xx-large !important;
-  padding: 0;
-}
 
