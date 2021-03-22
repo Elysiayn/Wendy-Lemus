@@ -12,7 +12,7 @@ const About = () => (
       </div>
 
         <div className="card-content">
-          <span className="card-title aboutTitle">About Me</span>
+        <h1 data-testid="h1tag">About Me</h1>
           <p className="aboutText flow-text">
             Welcome to my profile, my name is Wendy Lemus and I code as Elysiayn. I am currently developing my skills as a Full-Stack web developer at UCF Coding Boot-Camp.
             My journey began in October 2020 and while I am set to complete the program in April of 2021, I am excited to continue to be exposed to a variety of new and exciting 
