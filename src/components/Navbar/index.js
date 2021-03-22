@@ -61,7 +61,7 @@ function Navbar(props) {
     <div className="row">
       <nav>
         <div className="nav-wrapper teal darken-2">
-        <a href="#!" class="brand-logo hide-on-med-and-down"><i class="material-icons">cloud</i>Elysiayn</a>
+        <a href="#!" class="brand-logo hide-on-med-and-down"><i class="material-icons">spa</i>Elysiayn</a>
           <ul id="nav-mobile" class="right col" className="nav nav-tabs right">
             {tabs.map(tab => (
               <li class="active" className="nav-item" key={tab}>

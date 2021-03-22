@@ -18,6 +18,18 @@ code {
   padding: 0 !important;
 }
 
+/* navbar */
+
+.nav{
+  font-family: 'Shippori Mincho B1', serif;
+  font-weight: bold;
+}
+
+.brand-logo{
+  font-family: 'Shippori Mincho B1', serif;
+  font-weight: bold;
+}
+
 /* about page  */
 .about{
   background-image: url(./assets/images/waterfall.jpg);
@@ -27,4 +39,32 @@ code {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.aboutCard{
+  border-radius: 30px !important;
+  background-color: rgba(255, 255, 255, 1);
+  text-shadow: rgb(39, 39, 41) !important;
+  height: 50vh;
+  opacity: .96;
+  font-family: 'Shippori Mincho B1', serif;
+  font-size: large;
+  font-weight: bolder;
+  /* border-radius: rgb(39, 39, 41); */
+}
+
+.aboutTitle{
+  font-weight: bolder !important;
+  text-decoration: underline;
+  font-size: xxx-large !important;
+  padding-bottom: 30px;
+}
+
+.aboutText{
+  padding: 10px;
+}
+
+.profileImg{
+  margin-top:15%;
+  margin-bottom: 0px;
 }
