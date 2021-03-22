@@ -4,8 +4,8 @@ import Profile from "./pic_crop.jpg"
 
 const About = () => (
   <div class="row about">
-    <div  class="col s12 m12 l12 valign-wrapper">
-      <div class="card aboutCard">
+    <div  class="col s12 m12 l12 ">
+      <div class="card aboutCard ">
 
       <div class="col s4 m3 l2">
         <img class="circle responsive-img profileImg" src={Profile}></img>
