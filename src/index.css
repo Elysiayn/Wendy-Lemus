@@ -73,6 +73,27 @@ button{
 }
 
 /* portfolio */
+.portfolio{
+  justify-content: center;
+  align-items: center;
+}
+
+.projectCard{
+  opacity: .96;
+  font-family: 'Shippori Mincho B1', serif;
+  /* padding: 10px; */
+  /* font-size: large;
+  font-weight: bolder; */
+}
+
+.modalImg{
+  height:50vh;
+  /* width: 50vh !important; */
+}
+
+.modalBackdrop{
+
+}
 
 
 
