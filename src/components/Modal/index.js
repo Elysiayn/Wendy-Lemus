@@ -4,16 +4,23 @@ const Modal = ({ onClose, currentProject }) => {
   const { name, description, index  } = currentProject;
 
   return (
-    <div className="modalBackdrop">
-      <div className="modalContainer card">
-        <h3 className="modalTitle">{name} </h3>
-        <img className="modalProject" src={require(`../../assets/project-screenshots/${index}.png`).default} alt="current-project" />
-        <p className="projectText">
+    <div className="modalBackdrop container">
+      <div className="modalContainer center teal darken-2 card">
+        <h1 className="modalTitle">{name} </h1>
+        <div className="center">
+          <img  
+          className="modalProject center card" 
+          src={require(`../../assets/project-screenshots/${index}.png`).default} 
+          alt="current-project" />
+        </div>
+        <p className="modalText flow-text">
           {description}
         </p>
-        <button className="modalButton" type="button" onClick={onClose}>
-          Close this project
-        </button>
+        <div className="center">
+          <button className="modalButton center btn"  name="action" type="button" onClick={onClose}>
+          <i className="material-icons right">send</i>Close this project
+          </button>
+          </div>
       </div>
     </div>
   );
