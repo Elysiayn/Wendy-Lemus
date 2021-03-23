@@ -127,6 +127,11 @@ button{
   color:white;
 }
 
+p.modalText{
+  font-family:  'Shippori Mincho B1', serif !important ;
+  color:white;
+}
+
 .modalTitle {
 	font-weight: 500;
 	margin-bottom: 25px;
@@ -176,9 +181,12 @@ ul{
     margin-left: 15px !important;
   }
 
-  .modalProject img{
-    max-width: 10vh !important;
-  }
+  img.modalProject {
+    max-width: 100% !important;
+    margin: 10px;
+}
+
+
 
 }
 
