@@ -1,4 +1,5 @@
 import React from "react";
+import resumeFile from '../../assets/images/LemusResume.pdf';
 
 const Resume = () => (
   <div className="row about resume">
@@ -10,10 +11,10 @@ const Resume = () => (
       <h4 classNAme="flow-text">Skills:</h4>
         <p className="aboutText flow-text">
         * HTML, CSS, Git, JavaScript, BootStrap, Materialize, jQuery, REST API, Node.js,
-        Express.js, MongoDB, Mongoose, MySQLS, Sequelize, Object Oriented Programming and more!
+        Express.js, MongoDB, Mongoose, MySQL, Sequelize, Object Oriented Programming and more!
         </p>
         <div class="card-action center teal darken-2">
-          <a href="#">My full resume!</a>
+        <a href={resumeFile} download={resumeFile}>Download Resume</a>
         </div>
       </div>
     </div>
