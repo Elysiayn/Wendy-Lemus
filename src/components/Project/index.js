@@ -46,14 +46,14 @@ const ProjectList = () => {
   }
 
   return (
-    <div className="row portfolio">
+    <div className="portfolio about row">
       {isModalOpen && <Modal onClose={toggleModal} currentProject={currentProject} />}
-      <div className="">
+      <div className="container center">
         {projects.map((image, i) => (
           <img
             src={require(`../../assets/project-screenshots/${i}.png`).default}
             alt={image.name}
-            className="img-thumbnail card projectCard modalImg col s12 m12 l6"
+            className="img-thumbnail card col s12 m6 l4"
             onClick={() => toggleModal(image, i)}
             key={image.name}
           />
