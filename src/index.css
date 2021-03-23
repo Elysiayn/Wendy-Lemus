@@ -158,6 +158,11 @@ ul{
   font-family:'Shippori Mincho B1', serif !important;
 }
 
+.icons{
+  height: 65px;
+  width: 65px;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   

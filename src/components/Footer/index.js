@@ -12,14 +12,32 @@ function Footer() {
         <div class="">
           {/* <h5 class="white-text">Links</h5> */}
           <ul>
-            <li className="col s4 modalText">
-                <a class="grey-text text-lighten-3" href="https://github.com/Elysiayn">GitHub</a>
+            <li className="col s4">
+                <a class="grey-text text-lighten-3" href="https://github.com/Elysiayn">
+                  <img
+                    src={require('../../assets/images/github.png').default}
+                    alt='Github logo'
+                    className='icons center'
+                  />
+                </a>
             </li>
             <li className="col s4">
-              <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/wendy-lemus-221398166/">LinkedIn</a>
+              <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/wendy-lemus-221398166/">
+                <img
+                  src={require('../../assets/images/linked.png').default}
+                  alt='Linked-In logo'
+                  className='icons center'
+                />
+              </a>
             </li>
             <li className="center">
-              <a class="grey-text text-lighten-3" href="https://stackoverflow.com/users/14364170/wendy">Stack Overflow</a>
+              <a class="grey-text text-lighten-3" href="https://stackoverflow.com/users/14364170/wendy">
+                <img
+                  src={require('../../assets/images/overflow.png').default}
+                  alt='Stack-Overflow logo'
+                  className='icons center'
+                />
+              </a>
             </li>
           </ul>
         </div>
