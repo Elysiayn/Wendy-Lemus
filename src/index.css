@@ -135,6 +135,24 @@ button{
   color:white;
 }
 
+/* resume */
+
+.resume{
+  background-image: url(./assets/images/coast.jpg);
+}
+
+div.card-action a{
+  color:white !important; 
+}
+
+h4{
+  font-weight: 600;
+}
+
+.card-action{
+  margin-top: 10% !important;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   
@@ -142,6 +160,11 @@ button{
     font-size: xx-large !important;
     padding: 5%;
     }
+
+  h4{
+    font-size: x-large !important;
+    margin-left: 15px !important;
+  }
 
 }
 
