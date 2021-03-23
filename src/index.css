@@ -1,7 +1,7 @@
 /*  universal styling */
 .row{
   margin: 0 !important;
-  padding: 0 !important;
+  /* padding: 0 !important; */
 }
 
 /* navbar */
@@ -38,10 +38,6 @@
 }
 
 h1{
-  /* font-weight: bolder !important; */
-  /* text-decoration: underline; */
-  /* font-size: xxx-large !important; */
-  /* padding-bottom: 30px; */
   margin-top: 0% !important;
 }
 
@@ -74,16 +70,78 @@ textarea{
 button{
   margin-top: 3% !important;
   font-family: 'Shippori Mincho B1', serif !important;
+  margin-bottom: 3% !important;
 }
 
+/* portfolio */
+
+.portfolio{
+  padding-top: 3% !important;
+  background-image: url(./assets/images/grooves.webp);
+  margin: auto !important;
+}
+
+.img-thumbnail {
+  height:35vh !important;
+  width: 40%;
+  cursor: pointer;
+  border-style: solid;
+  padding: 10px;
+  margin: 10px !important;
+}
+
+/* modal */
+
+.modalProject.card {
+  align-content: center;
+  height: 40vh !important;
+  width: auto !important;
+  border-style: solid;
+  margin: 0 !important;
+}
+
+.modalBackdrop {
+	background: rgba(0, 0, 0, .65);
+	/* bottom: 0; */
+	/* left: 0; */
+	/* overflow: auto; */
+	/* position: fixed; */
+	/* right: 0; */
+	/* top: 0; */
+	/* z-index: 1; */
+  /* height: 35vh !important; */
+  /* width: 60% !important; */
+}
+
+/* .modalContainer {
+	border-radius: 5px;
+	min-width: 100%;
+	margin: 50px auto;
+	padding: 15px;
+	width: 960px;
+  min-height: 100% !important;
+} */
+
+.modalText{
+  font-family: 'Shippori Mincho B1', serif !important;
+  color:white;
+}
+
+.modalTitle {
+	font-weight: 500;
+	margin-bottom: 25px;
+  font-family: 'Shippori Mincho B1', serif !important;
+  text-decoration: underline;
+  color:white;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   
   h1 {
     font-size: xx-large !important;
-    padding: 0;
-  }
+    padding: 5%;
+    }
 
 }
 

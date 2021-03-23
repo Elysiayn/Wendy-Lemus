@@ -59,7 +59,7 @@ function Contact() {
                 </div>
               )}
               <div className="center">
-                <button className="btn teal" data-testid="button" name="action" type="submit">
+                <button className="btn teal darken-2" data-testid="button" name="action" type="submit">
                 <i className="material-icons right">send</i>Submit
                 </button>
                 </div>
