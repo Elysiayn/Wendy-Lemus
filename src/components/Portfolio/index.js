@@ -1,15 +1,11 @@
 import React from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
-import Photos from '../Photos';
+import ProjectList from '../Project';
 
-function Portfolio ({ currentCategory }) {
-    const { name, description } = currentCategory;
+function Portfolio () {
 
     return (
         <section>
-            <h1 data-testid="h1tag">{capitalizeFirstLetter(name)}</h1>
-            <p>{description}</p>
-            <Photos category={currentCategory.name} />
+          <ProjectList />
         </section>
     )
 }

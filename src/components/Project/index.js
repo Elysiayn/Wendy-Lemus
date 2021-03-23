@@ -1,60 +1,59 @@
 import React, { useState } from 'react';
 import Modal from '../Modal';
 
-const Photos = ({ category }) => {
+const ProjectList = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [currentPhoto, setCurrentPhoto] = useState();
 
-  const [photos] = useState([
+  const projects = [
     {
       name: 'Something Special',
-      category: 'something-special',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      // url: 
     },
     {
       name: 'Dungeons End',
-      category: 'dungeons-end',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      // url: 
     },
     {
       name: 'Photo Port',
-      category: 'photo-port',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      // url: 
     },
     {
       name: 'Pizza Hunt',
-      category: 'pizza-hunt',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      // url: 
     },
     {
       name: 'Weather Dashboard',
-      category: 'weather-dashboard',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      // url: 
     },
     {
       name: 'Run Buddy',
-      category: 'run-buddy',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      // url: 
     },
     
-  ]);
+  ];
 
-  const currentPhotos = photos.filter((photo) => photo.category === category);
+  const [currentProject, setCurrentProject] = useState();
 
   const toggleModal = (image, i) => {
-    setCurrentPhoto({ ...image, index: i });
+    setCurrentProject({ ...image, index: i });
     setIsModalOpen(!isModalOpen);
-  };
+  }
 
   return (
-    <div>
-      {isModalOpen && <Modal onClose={toggleModal} currentPhoto={currentPhoto} />}
-      <div className="flex-row">
-        {currentPhotos.map((image, i) => (
+    <div className="container row">
+      {isModalOpen && <Modal onClose={toggleModal} currentProject={currentProject} />}
+      <div className="flex-row project-div">
+        {projects.map((image, i) => (
           <img
-            src={require(`../../assets/project-screenshots/${category}/${i}.png`).default}
+            src={require(`../../assets/project-screenshots/${i}.png`).default}
             alt={image.name}
-            className="img-thumbnail mx-1"
+            className="img-thumbnail mx-1 modal-img"
             onClick={() => toggleModal(image, i)}
             key={image.name}
           />
@@ -64,4 +63,4 @@ const Photos = ({ category }) => {
   );
 };
 
-export default Photos;
+export default ProjectList;

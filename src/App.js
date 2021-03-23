@@ -9,6 +9,8 @@ import 'materialize-css/dist/css/materialize.min.css';
 function App() {
   const [currentPage, handlePageChange] = useState('About');
 
+
+
   const renderPage = () => {
     // Add a switch statement that will return the appropriate component of the 'currentPage'
     switch(currentPage) {
@@ -16,7 +18,7 @@ function App() {
         return <About />;
         // break;
       case 'Portfolio':
-        return <Portfolio />;
+        return <Portfolio />
         // break;
       case 'Contact':
         return <Contact />;
