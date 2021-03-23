@@ -9,7 +9,7 @@ const ProjectList = () => {
       name: 'Something Special',
       description: 'A community driven forum dedicated to finding local event related goods created with MySQL.',
       url: 'https://github.com/Elysiayn/something-special'
-      // url: 'https://cmnw-something-special.herokuapp.com/login'
+      // url: 'https://cmnw-something-special.herokuapp.com/login
     },
     {
       name: 'Dungeons End',

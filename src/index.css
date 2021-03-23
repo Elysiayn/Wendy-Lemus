@@ -176,6 +176,10 @@ ul{
     margin-left: 15px !important;
   }
 
+  .modalProject img{
+    max-width: 10vh !important;
+  }
+
 }
 
 
