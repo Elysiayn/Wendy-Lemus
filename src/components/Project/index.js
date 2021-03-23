@@ -62,7 +62,7 @@ const ProjectList = () => {
             className="img-thumbnail card col s12 m6 l4"
             onClick={() => toggleModal(image, i)}
             key={image.name}
-            />
+          />
           // <a href={image.url} target='_blank' rel='noreferrer' className='dest-links'>Go To Project </a>
         ))}
       </div>
