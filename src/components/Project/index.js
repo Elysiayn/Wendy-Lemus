@@ -65,7 +65,6 @@ function ProjectList() {
               key={image.name}
               
             />
-            <a href={image.url} target='_blank' rel='noreferrer' className='dest-links'>Go To Project </a>
           </div>
         ))}
       </div>
