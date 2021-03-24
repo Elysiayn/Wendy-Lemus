@@ -25,13 +25,13 @@ Please feel free to check out my portfolio created with react! It is a work in p
 
 ## Production
 
-[![react-portfolio](\src\assets\images\screenshot.png)](https://github.com/Elysiayn/react-portfolio)
+[![React-Portfolio](/src/assets/images/screenshot.png)](https://elysiayn.github.io/react-portfolio/)
 
 ## Questions
 
 Please feel free to reach me for additional questions at:
 <br>
-Email: Wendy.Lemus.WL@gmail.com
+Email: Elysiayn@gmail.com 
 
 Visit my GitHub!
 <br>
