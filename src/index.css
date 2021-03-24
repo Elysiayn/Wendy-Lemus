@@ -140,6 +140,12 @@ p.modalText{
   color:white;
 }
 
+.links a {
+  font-family:'Shippori Mincho B1', serif !important;
+  color: white !important;
+  margin: 3%;
+}
+
 /* resume */
 
 .resume{
