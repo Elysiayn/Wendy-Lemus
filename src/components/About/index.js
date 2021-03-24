@@ -1,6 +1,5 @@
 import React from "react";
 import Profile from "./pic_crop.jpg"
-// import profilePic from './assets'
 
 const About = () => (
   <div className="row about">

@@ -4,10 +4,13 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 import 'materialize-css/dist/css/materialize.min.css';
 
 function App() {
   const [currentPage, handlePageChange] = useState('About');
+
+
 
   const renderPage = () => {
     // Add a switch statement that will return the appropriate component of the 'currentPage'
@@ -16,7 +19,7 @@ function App() {
         return <About />;
         // break;
       case 'Portfolio':
-        return <Portfolio />;
+        return <Portfolio />
         // break;
       case 'Contact':
         return <Contact />;
@@ -38,6 +41,7 @@ function App() {
           renderPage()
         }
       </div>
+      <Footer />
     </div>
   );
 }

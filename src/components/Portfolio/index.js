@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
+import ProjectList from '../Project';
 
-const Portfolio = () => (
-  <div>
-    <h1>Portfolio Page</h1>
-    <p>
-      PORTFOLIO TEXT
-    </p>
-  </div>
-);
+function Portfolio () {
 
-export default Portfolio;
+    return (
+        <section>
+          <ProjectList />
+        </section>
+    )
+}
+
+export default Portfolio
