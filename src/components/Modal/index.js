@@ -12,6 +12,10 @@ const Modal = ({ onClose, currentProject }) => {
           className="modalProject center card" 
           src={require(`../../assets/project-screenshots/${index}.png`).default} 
           alt="current-project" />
+          <div className="links">
+            <a href={currentProject.repo} target='_blank' rel='noreferrer' >Go To Project Repository!</a>
+            <a href={currentProject.deployed} target='_blank' rel='noreferrer' >Go To Deployed Project!</a>
+          </div>
         </div>
         <p className="modalText flow-text">
           {description}
