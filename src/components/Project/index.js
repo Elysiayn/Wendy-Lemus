@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../Modal';
 
-const ProjectList = () => {
+function ProjectList() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const projects = [
@@ -53,17 +53,20 @@ const ProjectList = () => {
 
   return (
     <div className="portfolio about row">
-      {isModalOpen && <Modal onClose={toggleModal} currentProject={currentProject} />}
+      {isModalOpen && <Modal currentProject={currentProject} onClose={toggleModal} />}
       <div className="container center">
         {projects.map((image, i) => (
-          <img
-            src={require(`../../assets/project-screenshots/${i}.png`).default}
-            alt={image.name}
-            className="img-thumbnail card col s12 m6 l4"
-            onClick={() => toggleModal(image, i)}
-            key={image.name}
-          />
-          <a href={image.url} target='_blank' rel='noreferrer' className='dest-links'>Go To Project </a>
+          <div>
+            <img
+              src={require(`../../assets/project-screenshots/${i}.png`).default}
+              alt={image.name}
+              className="img-thumbnail card col s12 m6 l4"
+              onClick={() => toggleModal(image, i)}
+              key={image.name}
+              
+            />
+            <a href={image.url} target='_blank' rel='noreferrer' className='dest-links'>Go To Project </a>
+          </div>
         ))}
       </div>
     </div>
