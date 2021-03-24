@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.551bd2bc.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.3093f258.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.3093f258.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.24da9e44.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.24da9e44.js.map",
+    "static/css/2.0f7ccd32.chunk.css": "/react-portfolio/static/css/2.0f7ccd32.chunk.css",
+    "static/js/2.0b18caf3.chunk.js": "/react-portfolio/static/js/2.0b18caf3.chunk.js",
+    "static/js/2.0b18caf3.chunk.js.map": "/react-portfolio/static/js/2.0b18caf3.chunk.js.map",
+    "static/js/3.38b91ff3.chunk.js": "/react-portfolio/static/js/3.38b91ff3.chunk.js",
+    "static/js/3.38b91ff3.chunk.js.map": "/react-portfolio/static/js/3.38b91ff3.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.0f7ccd32.chunk.css.map": "/react-portfolio/static/css/2.0f7ccd32.chunk.css.map",
+    "static/css/main.551bd2bc.chunk.css.map": "/react-portfolio/static/css/main.551bd2bc.chunk.css.map",
+    "static/js/2.0b18caf3.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.0b18caf3.chunk.js.LICENSE.txt",
+    "static/media/0.png": "/react-portfolio/static/media/0.ab6ba81d.png",
+    "static/media/1.png": "/react-portfolio/static/media/1.dd52ced7.png",
+    "static/media/2.png": "/react-portfolio/static/media/2.5581e631.png",
+    "static/media/3.png": "/react-portfolio/static/media/3.399b7db0.png",
+    "static/media/4.png": "/react-portfolio/static/media/4.c05e90bb.png",
+    "static/media/5.png": "/react-portfolio/static/media/5.2fb92961.png",
+    "static/media/LemusResume.dbc8aa7d.pdf": "/react-portfolio/static/media/LemusResume.dbc8aa7d.pdf",
+    "static/media/index.css": "/react-portfolio/static/media/waterfall_forest.4383ded9.jpg",
+    "static/media/github.png": "/react-portfolio/static/media/github.363cb5ed.png",
+    "static/media/pic_crop.561ae9eb.jpg": "/react-portfolio/static/media/pic_crop.561ae9eb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24da9e44.js",
+    "static/css/2.0f7ccd32.chunk.css",
+    "static/js/2.0b18caf3.chunk.js",
+    "static/css/main.551bd2bc.chunk.css",
+    "static/js/main.3093f258.chunk.js"
+  ]
+}
