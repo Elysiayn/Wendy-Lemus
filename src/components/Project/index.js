@@ -44,6 +44,10 @@ function ProjectList() {
     
   ];
 
+  // useEffect(() => {
+  //   window.scrollTo(0, 0)
+  // }, [])
+
   const [currentProject, setCurrentProject] = useState();
 
   const toggleModal = (image, i) => {
@@ -56,11 +60,11 @@ function ProjectList() {
       {isModalOpen && <Modal currentProject={currentProject} onClose={toggleModal} />}
       <div className="container center">
         {projects.map((image, i) => (
-          <div>
+          <div className="col s12 m6 l4">
             <img
               src={require(`../../assets/project-screenshots/${i}.png`).default}
               alt={image.name}
-              className="img-thumbnail card col s12 m6 l4"
+              className="img-thumbnail card"
               onClick={() => toggleModal(image, i)}
               key={image.name}
               
