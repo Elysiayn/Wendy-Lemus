@@ -115,5 +115,7 @@ function Contact() {
   );
 }
 
+// need to refresh page when message is submit
+
 
 export default Contact;

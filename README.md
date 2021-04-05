@@ -25,7 +25,7 @@ Please feel free to check out my portfolio created with react! It is a work in p
 
 ## Production
 
-[![React-Portfolio](/src/assets/images/screenshot.png)](https://elysiayn.github.io/react-portfolio/)
+[![Wendy-Lemus](/src/assets/images/screenshot.png)](https://elysiayn.github.io/wendy-lemus/)
 
 ## Questions
 

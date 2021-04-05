@@ -30,4 +30,6 @@ const Modal = ({ onClose, currentProject }) => {
   );
 };
 
+// need to add scroll up effect for modal
+
 export default Modal;
