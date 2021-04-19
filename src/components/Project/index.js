@@ -6,6 +6,12 @@ function ProjectList() {
 
   const projects = [
     {
+      name: 'Food Baby',
+      description: 'Food Baby provides an easily customizable food ordering app template that can be tailored to each business. User-focused MERN application',
+      repo: 'https://github.com/Nickhill2380/food-baby/tree/main',
+      deployed: 'https://food-babycmnw.herokuapp.com/'
+    },
+    {
       name: 'Something Special',
       description: 'A community driven forum dedicated to finding local event related goods created with MySQL.',
       repo: 'https://github.com/Elysiayn/something-special',
@@ -18,6 +24,12 @@ function ProjectList() {
       deployed: 'https://elysiayn.github.io/dungeons-end/'
     },
     {
+      name: 'Shop Shop',
+      description: 'A full-stack MERN e-commerce platform where users have the ability to browse products based on categories and checkout with Stripe.',
+      repo: 'https://github.com/Elysiayn/shop-shop',
+      deployed: 'https://shielded-reaches-92943.herokuapp.com/'
+    },
+    {
       name: 'Photo Port',
       description: 'Mock profile created with react.',
       repo: 'https://github.com/Elysiayn/photo-port',
@@ -28,18 +40,6 @@ function ProjectList() {
       description: 'Pizza themed blog created utilizing MongoDB and Mongoose.',
       repo: 'https://github.com/Elysiayn/pizza-hunt',
       deployed: 'https://fierce-springs-35562.herokuapp.com/'
-    },
-    {
-      name: 'Weather Dashboard',
-      description: 'A weather application utilizing an API to forcast weather near user.',
-      repo: 'https://github.com/Elysiayn/weather-dashboard',
-      deployed: 'https://elysiayn.github.io/weather-dashboard/'
-    },
-    {
-      name: 'Run Buddy',
-      description: 'Mock fitness site created with CSS and HTML.',
-      repo: 'https://github.com/Elysiayn/run-buddy',
-      deployed:'https://elysiayn.github.io/run-buddy/'
     },
     
   ];
