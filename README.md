@@ -1,10 +1,10 @@
 # React Portfolio
 
-### UCF Coding Boot-Camp Module 20 Challenge
+### Personal Portfolio
 
 ## Description
 
-Please feel free to check out my portfolio created with react! It is a work in progress and I will be adding new projects as I continue my adventure in web development! 
+Please feel free to check out my portfolio created with react! It is a work in progress and I will be adding new projects as I continue my adventure in web development and programming! 
 
 ## Table of Contents
 
