@@ -31,7 +31,7 @@ Please feel free to check out my portfolio created with react! It is a work in p
 
 Please feel free to reach me for additional questions at:
 <br>
-Email: Elysiayn@gmail.com 
+Email: wendy.lemus.wl@gmail.com 
 
 Visit my GitHub!
 <br>
