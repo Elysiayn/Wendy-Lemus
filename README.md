@@ -8,10 +8,10 @@ Please feel free to check out my portfolio created with react! It is a work in p
 
 ## Table of Contents
 
-- [Description](#Description)
-- [Features](#Features)
-- [Production](#Production)
-- [Questions](#Questions)
+- [Description](#description)
+- [Features](#features)
+- [Production](#production)
+- [Questions](#questions)
 
 <br>
 
