@@ -94,7 +94,7 @@ function Contact() {
               </div>
               <div>
                 <label htmlFor="email">Email address:</label>
-                <input type="email" type="email" name="email" />
+                <input type="email" name="email" />
                 <ValidationError prefix="Email" field="email" errors={state.errors} />
               </div>
               <div>

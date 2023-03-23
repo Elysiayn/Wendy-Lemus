@@ -13,16 +13,17 @@ const About = () => (
         <div className="card-content">
         <h1 data-testid="h1tag">About Me</h1>
           <p className="aboutText flow-text">
-            Welcome to my profile, my name is Wendy Lemus and I code as Elysiayn. I am currently developing my skills as a Full-Stack web developer at UCF Coding Boot-Camp.
-            My journey began in October 2020 and while I am set to complete the program in April of 2021, I am excited to continue to be exposed to a variety of new and exciting 
-            technology in the world of web development.
+            As a self-proclaimed life-long programming student, my current endevours continue in pursuit of cultivating my skills as a full-stack web application developer.
+            While my journey officially began in October 2020, I ensure to maintain up to date on new and current technologogies, while also developing new skills. Which, most recently
+            has also led me to explore the wonderful programming language that is Java! 
           </p>
           <p className="aboutText flow-text">
             I am a Florida based developer, with a great passion for fantasy related creative works. I am particularily fond of table top games and am currently obsessed with Dungeon's 
-            & Dragon's 5e. I am a nature enthusiast and take any oportunity I can get to expierence camping in Florida's beautiful state parks.
+            & Dragon's 5e. I am a nature enthusiast and take any oportunity I can get to expierence camping in Florida's beautiful state parks. Slowly getting better at hiking to eventually 
+            take it to the level of backpacking! Known to show pictures of my cat without warning. 
           </p>
           <p className="aboutText flow-text">
-            Feel free to stop by my contact page to reach out to me for any inquiries! 
+            Feel free to stop by my contact page and reach out to me for any inquiries! 
           </p>
         </div>
       </div>
