@@ -12,7 +12,7 @@ const About = () => (
 
         <div className="card-content">
         <h1 data-testid="h1tag">About Me</h1>
-          <p className="aboutText flow-text">
+        <p className="aboutText flow-text">
             As a self-proclaimed life-long programming student, my current endevours continue in pursuit of cultivating my skills as a full-stack web application developer.
             While my journey officially began in October 2020, I ensure to maintain up to date on new and current technologogies, while also developing new skills. Which, most recently
             has also led me to explore the wonderful programming language that is Java! 
