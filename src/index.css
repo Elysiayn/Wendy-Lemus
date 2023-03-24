@@ -32,23 +32,36 @@
   background-color: rgba(255, 255, 255, 1);
   opacity: .96;
   font-family: 'Shippori Mincho B1', serif;
-  font-size: large;
-  font-weight: bolder;
+  font-weight: 900 !important;
   min-height: 50vh;
+}
+
+.aboutTitle{
+  display: flex;
+  align-items: flex-end !important;
+  
 }
 
 h1{
   margin-top: 0% !important;
+  font-weight: 900 !important;
 }
 
 .aboutText{
   padding: 10px;
 }
 
-.profileImg{
+
+
+/* img.responsive-img{
+
+
+} */
+
+/* .profileImg{
   margin-top:15%;
   margin-bottom: 0px;
-}
+} */
 
 /* contact */
 .contact{
@@ -175,8 +188,8 @@ ul{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   
-  h1 {
-    font-size: xx-large !important;
+  h1{
+    font-size: 8vw !important;
     padding: 5%;
     }
 
@@ -190,8 +203,25 @@ ul{
     margin: 10px;
 }
 
-
+/* .aboutTitle{
+  
+} */
 
 }
 
+/* Large devices (laptops/desktops, 992px max and down) */
+@media only screen and (max-width: 992px) {
 
+.row .col.m4{
+  width: 16.6666666667% !important;
+}
+
+.row .col.m8{
+  width:83.3333333333% !important;
+}
+
+/* img.responsive-img{
+  
+} */
+
+}
