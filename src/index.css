@@ -38,7 +38,8 @@
 
 .aboutHeader{
   display: flex !important;
-  align-items: first baseline !important;
+  align-items: flex-end !important;
+  /* align-items: center !important; */
 }
 
 .aboutText{
@@ -58,7 +59,11 @@
 
 /* img right col */
 div.aboutTitle.col.s4.m4.l4{
-  max-width:16.6666666667%;
+  max-width: 15em !important;
+  width: 33.3333333333%;
+  margin-right: auto;
+  display: flex !important;
+  align-items: center !important;
 }
 
 /* contact */
