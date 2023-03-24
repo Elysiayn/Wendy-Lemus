@@ -28,26 +28,42 @@
 
 .aboutCard{
   margin-top: 5% !important;
-  border-radius: 30px !important;
+  border-radius: 30px !important; 
   background-color: rgba(255, 255, 255, 1);
   opacity: .96;
   font-family: 'Shippori Mincho B1', serif;
-  font-size: large;
-  font-weight: bolder;
+  font-weight: 900 !important;
   min-height: 50vh;
 }
 
-h1{
-  margin-top: 0% !important;
+.aboutHeader{
+  display: flex !important;
+  align-items: flex-end !important;
+  /* align-items: center !important; */
 }
 
 .aboutText{
   padding: 10px;
 }
 
-.profileImg{
-  margin-top:15%;
-  margin-bottom: 0px;
+.aboutTitle h1 {
+  margin-bottom:auto !important;
+  font-weight: 900 !important;
+}
+
+/* h1 title left col */
+  div.aboutTitle.col.s8.m8.l8{
+    max-width:83.3333333333%;
+    margin-left: 0%;
+}
+
+/* img right col */
+div.aboutTitle.col.s4.m4.l4{
+  max-width: 15em !important;
+  width: 33.3333333333%;
+  margin-right: auto;
+  display: flex !important;
+  align-items: center !important;
 }
 
 /* contact */
@@ -172,13 +188,21 @@ ul{
   width: 65px;
 }
 
+/* Large devices (laptops/desktops, 992px max and down) */
+@media only screen and (max-width: 992px) {
+
+  .aboutTitle h1{
+    font-size: 3em !important;
+  }
+
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   
-  h1 {
-    font-size: xx-large !important;
-    padding: 5%;
-    }
+  .aboutTitle h1{
+    font-size: 2em !important;
+  }
 
   h4{
     font-size: x-large !important;
@@ -190,8 +214,12 @@ ul{
     margin: 10px;
 }
 
-
-
 }
 
+/* screens smaller than 500px GalaxyFold is 280px  */
+@media only screen and (max-width: 500px) {
 
+  .aboutTitle h1{
+    font-size: 1.5em !important;
+  }
+}
