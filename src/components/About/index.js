@@ -8,19 +8,22 @@ const About = () => (
 			{/* entire about content */}
 			<div className="card-panel aboutCard">
 				{/* img and title container */}
-				<div className="aboutTitle">
-					<div className="col s4 m4 l2 ">
-						<img
+				<div className="aboutHeader">
+					{/* <div className="aboutTitle col s4 m4 l2 "> */}
+
+					<div className="aboutTitle col s8 m8 l8">
+						<h1>Behind the Code:</h1>
+					</div>
+
+					{/* <div className="aboutTitle col s8 m8 l10"> */}
+
+					<div className="aboutTitle col s4 m4 l4">
+            <img
 							alt="Wendy Lemus profile headshot"
 							className="circle responsive-img"
 							src={Profile}
 						></img>
-					</div>
-
-					<div className="col s8 m8 l10">
-						<h1>Behind the Code:</h1>
-					</div>
-
+          </div>
 					{/* END img and title */}
 				</div>
 
