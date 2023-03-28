@@ -35,7 +35,7 @@ const About = () => (
 						continue in pursuit of cultivating my skills as
 						a full-stack web application developer. While my
 						journey officially began in October 2020, I
-						ensure to maintain up to date on new and current
+						always strive to maintain up to date on new and current
 						technologies, while also developing new skills.
 						Which, most recently has also led me to explore
 						the wonderful programming language that is Java!
