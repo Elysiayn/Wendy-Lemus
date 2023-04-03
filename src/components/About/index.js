@@ -12,7 +12,7 @@ const About = () => (
 					{/* <div className="aboutTitle col s4 m4 l2 "> */}
 
 					<div className="aboutTitle col s8 m8 l8">
-						<h1>Behind the Code:</h1>
+						<h1>Take a look around!</h1>
 					</div>
 
 					{/* <div className="aboutTitle col s8 m8 l10"> */}
