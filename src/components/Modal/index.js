@@ -1,4 +1,5 @@
 import React from 'react';
+// import index from '../../assets/project-screenshots/${index}.png';
 
 const Modal = ({ onClose, currentProject }) => {
   const { name, description, index  } = currentProject;
@@ -14,7 +15,7 @@ const Modal = ({ onClose, currentProject }) => {
           alt="current-project" />
           <div className="links">
             <a href={currentProject.repo} target='_blank' rel='noreferrer' >Go To Project Repository!</a>
-            <a href={currentProject.deployed} target='_blank' rel='noreferrer' >Go To Deployed Project!</a>
+            <a href={currentProject.deployed} target='_blank' rel='noreferrer' >Go To Deployed Production!</a>
           </div>
         </div>
         <p className="modalText flow-text">

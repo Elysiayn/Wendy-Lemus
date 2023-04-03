@@ -30,15 +30,23 @@ const About = () => (
 				{/* about text */}
 				<div className="card-content">
 					<p className="aboutText flow-text">
-						I am a self-proclaimed avid life-long
-						programming student! My current endeavors
-						continue in pursuit of cultivating my skills as
-						a full-stack web application developer. While my
-						journey officially began in October 2020, I
-						always strive to maintain up to date on new and current
-						technologies, while also developing new skills.
-						Which, most recently has also led me to explore
+						Thanks for stopping by! This page is developed
+						and maintained by a spirited programming
+						student, Wendy Lemus. While my coding journey
+						officially began in October 2020, my current
+						endeavors continue to be in pursuit of
+						cultivating my skills as an aspiring full-stack
+						web application developer. I ensure to strive to
+						maintain current on technologies relevant in the
+						industry, while also developing new skills.
+						Most recently this has also led me to explore
 						the wonderful programming language that is Java!
+						Additionally, this summer of 2023 I am beginning
+						my progress toward a second Bachelor's degree at
+						Arizona State University for software
+						engineering. I am excited to actively apply my
+						skills and further grow in this innovative
+						industry.
 					</p>
 					<p className="aboutText flow-text">
 						I am a Florida-based developer, with a great
@@ -49,7 +57,7 @@ const About = () => (
 						any opportunity I can get to experience camping
 						in Florida's beautiful state parks. Slowly
 						getting better at hiking to eventually take it
-						to the level of backpacking! Known to show
+						to the level of backpacking! I'm known to show
 						pictures of my cat without warning.
 					</p>
 					<p className="aboutText flow-text">
