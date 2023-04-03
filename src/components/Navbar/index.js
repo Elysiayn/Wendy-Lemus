@@ -58,29 +58,40 @@ import M from "materialize-css/dist/js/materialize.min.js";
 function Navbar(props) {
   const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
   return (
-    <div className="row">
-      <nav>
-        <div className="nav-wrapper teal darken-2">
-        <a href="#!" className="brand-logo hide-on-med-and-down"><i className="material-icons">spa</i>Wendy Lemus</a>
-          <ul id="nav-mobile" className="right col" className="nav nav-tabs right">
-            {tabs.map(tab => (
-              <li className="active" className="nav-item" key={tab}>
-                <a
-                  href={'#' + tab.toLowerCase()}
-                  onClick={() => props.handlePageChange(tab)}
-                  className={
-                    props.currentPage === tab ? 'nav-link active' : 'nav-link'
-                  }
-                >
-                  {tab}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </nav>
-    </div>
-  );
+		<div className="row">
+			<nav>
+				<div className="nav-wrapper teal darken-2">
+					<a
+						href="#about"
+						class="brand-logo hide-on-med-and-down nav-link">
+						<i class="material-icons"></i>Elysiayn Devs
+					</a>
+					<ul
+						id="nav-mobile"
+						className="right col nav nav-tabs right"
+					>
+						{tabs.map((tab) => (
+							<li className="active nav-item" key={tab}>
+								<a
+									href={"#" + tab.toLowerCase()}
+									onClick={() =>
+										props.handlePageChange(tab)
+									}
+									className={
+										props.currentPage === tab
+											? "nav-link active"
+											: "nav-link"
+									}
+								>
+									{tab}
+								</a>
+							</li>
+						))}
+					</ul>
+				</div>
+			</nav>
+		</div>
+	);
 }
 
 export default Navbar;
