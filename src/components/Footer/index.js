@@ -1,4 +1,7 @@
 import React from 'react';
+import imgGithub from '../../assets/images/github.png';
+import imgLinked from '../../assets/images/linked.png';
+import imgStack from '../../assets/images/overflow.png';
 
 function Footer() {
   return (
