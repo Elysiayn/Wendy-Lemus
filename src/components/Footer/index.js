@@ -20,6 +20,7 @@ function Footer() {
 								<a
 									class="grey-text text-lighten-3"
 									href="https://github.com/Elysiayn"
+									target="_blank"
 								>
 									<img
 										src={imgGithub}
@@ -32,11 +33,10 @@ function Footer() {
 								<a
 									class="grey-text text-lighten-3"
 									href="https://www.linkedin.com/in/wendy-lemus-221398166/"
+									target="_blank"
 								>
 									<img
-										src={
-											imgLinked
-										}
+										src={imgLinked}
 										alt="Linked-In logo"
 										className="icons center"
 									/>
@@ -46,11 +46,10 @@ function Footer() {
 								<a
 									class="grey-text text-lighten-3"
 									href="https://stackoverflow.com/users/14364170/wendy"
+									target="_blank"
 								>
 									<img
-										src={
-											imgStack
-										}
+										src={imgStack}
 										alt="Stack-Overflow logo"
 										className="icons center"
 									/>
