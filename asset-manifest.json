@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Wendy-Lemus/static/css/main.4c305e1f.css",
-    "main.js": "/Wendy-Lemus/static/js/main.f3a83b4b.js",
+    "main.js": "/Wendy-Lemus/static/js/main.1ccf73a8.js",
     "static/js/787.fec03637.chunk.js": "/Wendy-Lemus/static/js/787.fec03637.chunk.js",
     "static/media/github.png": "/Wendy-Lemus/static/media/github.363cb5edea582a89c41f.png",
     "static/media/4.png": "/Wendy-Lemus/static/media/4.5581e631439a2928af52.png",
@@ -18,11 +18,11 @@
     "static/media/Resume.pdf": "/Wendy-Lemus/static/media/Resume.cf6b85f6ab05e48f09cd.pdf",
     "index.html": "/Wendy-Lemus/index.html",
     "main.4c305e1f.css.map": "/Wendy-Lemus/static/css/main.4c305e1f.css.map",
-    "main.f3a83b4b.js.map": "/Wendy-Lemus/static/js/main.f3a83b4b.js.map",
+    "main.1ccf73a8.js.map": "/Wendy-Lemus/static/js/main.1ccf73a8.js.map",
     "787.fec03637.chunk.js.map": "/Wendy-Lemus/static/js/787.fec03637.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c305e1f.css",
-    "static/js/main.f3a83b4b.js"
+    "static/js/main.1ccf73a8.js"
   ]
 }
