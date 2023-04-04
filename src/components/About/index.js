@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "./pic_crop.jpg";
+import imgProfile from "../../assets/images/profile.jpg";
 
 const About = () => (
 	<div className="row about">
@@ -21,7 +21,7 @@ const About = () => (
 						<img
 							alt="Wendy Lemus profile headshot"
 							className="circle responsive-img"
-							src={Profile}
+							src={imgProfile}
 						></img>
 					</div>
 					{/* END img and title */}

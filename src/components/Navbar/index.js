@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// Import Materialize
+import imgLogo from "../../assets/images/logo.png";
 import 'materialize-css/dist/css/materialize.min.css';
 import M from "materialize-css/dist/js/materialize.min.js";
 
@@ -58,13 +58,21 @@ import M from "materialize-css/dist/js/materialize.min.js";
 function Navbar(props) {
   const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
   return (
-		<div className="row">
+		<div className="row nav">
 			<nav>
 				<div className="nav-wrapper teal darken-2">
 					<a
-						href="#about"
-						class="brand-logo hide-on-med-and-down nav-link">
-						<i class="material-icons"></i>Elysiayn Devs
+						href="https://elysiayn.github.io/Wendy-Lemus/"
+						class="col brand-logo hide-on-med-and-down nav-link"
+					>
+						<i class="col">
+							<img
+								src={imgLogo}
+								alt="Elysiayn Devs logo"
+								className="logo-icon "
+							/>
+						</i>
+						Elysiayn Devs
 					</a>
 					<ul
 						id="nav-mobile"

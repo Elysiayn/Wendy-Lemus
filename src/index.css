@@ -9,7 +9,13 @@
   font-family: 'Shippori Mincho B1', serif;
   font-weight: bold;
   color:black !important;
+  align-content: center;
+  display: flex !important;
 }
+
+/* nav-wrapper{
+  align-content: baseline !important;
+} */
 
 nav ul a {
   color: black !important;
@@ -20,6 +26,14 @@ nav ul a {
   font-family: 'Shippori Mincho B1', serif;
   font-weight: 900 !important;
   color:black !important;
+  /* position: relative !important; */
+  /* padding: 5% !important; */
+}
+
+.logo-icon {
+  height: 125%;
+  /* width: auto; */
+  /* align-self: center; */
 }
 
 /* about page  */
